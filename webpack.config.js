@@ -7,7 +7,7 @@ module.exports = {
     bundle: './app.js',
   },
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/docs',
     filename: '[name].js',
   },
   module: {
@@ -58,7 +58,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: 'dist',
+    contentBase: 'docs',
     port: 1192,
     inline: true,
     disableHostCheck: true,

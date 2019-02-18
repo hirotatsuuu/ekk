@@ -45,7 +45,7 @@ pipenv install
 yarn dev
 ```
 
-- `dist`ディレクトリに`bundle.js`を生成する
+- `docs`ディレクトリに`bundle.js`を生成する
 
 ```
 yarn build
